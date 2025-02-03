@@ -33,6 +33,10 @@ deleteTache.addEventListener("click",()=>{
     
 })
 
+const allCheckbox=document.querySelectorAll("label").textContent;
+// allCheckbox.sort();
+console.log(allCheckbox)
+
 // const allCheckbox=Array.from(containerLabelInputCheckbox.querySelector("label"));
 // allCheckbox.sort((a, b)=> a.textContent.localeCompare(b.textContent));
 
